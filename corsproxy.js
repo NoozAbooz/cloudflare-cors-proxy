@@ -81,7 +81,7 @@ const corsHeaders = {
 // but does not implement CORS
 const apiurl = 'https://workers-tooling.cf/demos/demoapi'
 // The endpoint you want the CORS reverse proxy to be on
-const proxyEndpoint = '/corsproxy/'
+const proxyEndpoint = '/'
 // The rest of this snippet for the demo page
 async function rawHtmlResponse(html) {
   return new Response(html, {
